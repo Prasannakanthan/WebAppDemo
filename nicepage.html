@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nicepage.css">
+    <style>
+        p {
+            color: orange !important;
+        }
+    </style>
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div id="result">
+
+        </div>
+    </div>
+
+    <button class="btn btn-info btn-lg" onclick="getdata()">Fetch the data</button>
+
+
+    <p id="para">Hello</p>
+
+    <div class="container">
+        <form  class="form-vertical">
+            <div class="form-group">
+                <label for="">Enter your name</label>
+                <input type="text" name="" id="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Enter password</label>
+                <input type="password" name="" id="" class="form-control">
+            </div>
+    
+        </form>
+    </div>
+   
+    
+   
+    
+    
+
+    <!-- 
+    xs < 768 px - mobile
+    sm  769 - 991px - tab 
+    md 992 - 1199 px - Small laptop
+    lg > 1200px - Desktop -->
+    <!-- 
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="">Enter you firstname</label>
+                <input type="text" name="" id="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Enter you password</label>
+                <input type="password" name="" id="" class="form-control">
+            </div>
+            
+            
+        </form>
+    </div>
+
+    -->
+
+
+
+
+
+    <!-- <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="HTML.png" alt="" class="img-responsive" height="100"
+                        width="100"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#section1">Home</a></li>
+                    <li class="active"><a href="#page1">Page 1</a></li>
+                    <li><a href="#page2">Page 2</a></li>
+                    <li><a href="#page3">Page 3</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </nav>
+
+    <div id="section1">
+        prasanna
+    </div>
+    <div id="page1">
+
+
+        <button data-target="#modal">
+            open popup
+        </button>
+
+        <div id="modal">
+            HElloo guys am from the popup
+        </div>
+
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            Read More <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+        </ul>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+       
+
+
+
+
+    <!-- 
+    <div class="media">
+        <div class="media-left">
+            <img src="" alt="">
+        </div>
+        <div class="media-body">
+            Lorem Ipsum
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-sm-6 col-md-3">
+                <h1>Maecenas luctus lectus</h1>
+                <p>In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <img src="pics13.jpg" class="img-thumbnail" alt="">
+                <button class="btn btn-info">Read More <span class="glyphicon glyphicon-triangle-right"></span></button>
+           </div>
+           <div class="col-xs-12 col-sm-6 col-md-3">
+                <h1>Maecenas luctus lectus</h1>
+                <p>In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <img src="pics13.jpg" class="img-thumbnail" alt="">
+                <button class="btn btn-info">Read More <span class="glyphicon glyphicon-triangle-right"></span>
+                </button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h1>Maecenas luctus lectus</h1>
+                <p>In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <img src="pics13.jpg" class="img-thumbnail" alt="">
+                <button class="btn btn-info">Read More <span class="glyphicon glyphicon-triangle-right"></span></button>
+           </div>
+           <div class="col-xs-12 col-sm-6 col-md-3">
+                <h1>Maecenas luctus lectus</h1>
+                <p>In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <img src="pics13.jpg" class="img-thumbnail" alt="">
+                <button class="btn btn-info">Read More <span class="glyphicon glyphicon-triangle-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+     -->
+
+
+
+    <!-- Bootstrap Starts-->
+
+    <!-- <table class="table table-hover table-bordered">
+        <tr class="success">
+            <td>NAme 1</td>
+            <td>Name 2</td>
+            <td>Name 3</td>
+            <td>Name 2</td>
+            <td>Name 3</td>
+            <td>Name 2</td>
+            <td>Name 3</td>
+        </tr>
+        <tr>
+            <td>RAvi</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+        </tr>
+        <tr class="danger">
+            <td>RAvi</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+        </tr>
+        <tr>
+            <td>RAvi</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+        </tr>
+        <tr class="info">
+            <td>RAvi</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+        </tr>
+        <tr>
+            <td>RAvi</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+            <td>ARish</td>
+            <td>Prasanna</td>
+        </tr>
+    </table>
+    <div class="jumbotron">
+      <h1> Hello Bootstrap</h1> 
+    </div>
+    <div class="well well-lg">
+        contextual classes
+    </div>
+    <div class="well well-sm">
+        contextual classes
+    </div>
+    <div class="well well-md">
+        contextual classes
+    </div>
+
+
+    <div class="container">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                HTML
+            </div>
+            <div class="panel-body">
+                To create layout html is very useful
+            </div>
+            <div class="panel-footer">
+                Copyrights, All Rights Reserved
+            </div>
+        </div>
+    
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                HTML
+            </div>
+            <div class="panel-body">
+                To create layout html is very useful
+            </div>
+            <div class="panel-footer">
+                Copyrights, All Rights Reserved
+            </div>
+        </div>
+    
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                HTML
+            </div>
+            <div class="panel-body">
+                To create layout html is very useful
+            </div>
+            <div class="panel-footer">
+                Copyrights, All Rights Reserved
+            </div>
+        </div>
+    </div>
+    
+    <span class="glyphicon glyphicon-expand"></span>
+   
+
+    <div></div>
+
+    <span class="label label-info">Enter your firstname</span>
+
+    <div class="progress ">
+        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="20"
+        aria-valuemin="0" aria-valuemax="100" style="width:90%">
+          20%
+        </div>
+      </div>
+
+    <button class="btn btn-success btn-lg">Click here to know more</button>
+    <button class="btn btn-info btn-lg">Click here to know more</button>
+    <button class="btn btn-danger btn-lg">Click here to know more</button>
+    <button class="btn btn-warning btn-lg">Click here to know more</button>
+    <button class="btn btn-default btn-lg">Click here to know more</button>
+
+    <div class="container-fluid">
+        <img src="jcb.jpg" class="img-responsive img-thumbnail" alt="">
+    </div> -->
+
+
+
+    <!-- Bootstrap ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <input type="text" name="" id="fnum">
+    <input type="text" name="" id="snum">|
+    <input type="button" name="" id="" value="Add" onclick="add()">
+ -->
+
+    <!-- <Label>Enter your age</Label>
+    <input type="number" name="" id="agebox">
+    <label for="">Enter your nationality</label>
+
+    <input type="text" name="" id="country" maxlength="5">
+    <button onclick="check()">Check Eligibility</button> -->
+    <!-- <i class="fa fa-imdb fa-5x" aria-hidden="true"></i>
+
+    <i class="fa fa-etsy fa-5x" aria-hidden="true"></i>
+
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+
+
+    <a href="https://www.google.co.in/">Go to Google</a>
+
+    <p style="color: red;" class="firstpara">Hello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the <i>paragraph</i> Hello <strong>HEre </strong>I am the paragraphHello HEre I x <sup>3</sup> paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraph</p>
+    log <sub>10</sub>
+
+
+    <blockquote>
+        Hello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraph Hello HEre I am the paragraphHello HEre I x 3 paragraphHello HEre I am the paragraphHello HEre I am the paragraphHello HEre I am the paragraph
+    </blockquote>
+
+    semantic tags or elements
+
+    <section></section>
+    <article></article>
+
+
+    <audio src=""></audio>
+    <video src=""></video>
+
+
+    <aside></aside>
+
+    <header></header>
+    <footer></footer>
+
+    <nav></nav>
+
+
+
+    <nav>
+        <span>Home</span>
+        <span>About</span>
+    </nav>
+
+
+
+    <div class="flexbox">
+        <div>
+            One
+        </div>
+        <div>
+            Two
+        </div> 
+        <div>
+            Three
+        </div>  
+        <div>
+            Three
+        </div>  
+        <div>
+            Three
+        </div>  
+        <div>
+            Three
+        </div>  
+    </div>
+
+    <aside>
+        Advertisemen
+    </aside>
+
+
+    <img src="jcb.jpg"   class="jcbimg" alt="sorry">
+    <figure>
+        
+        <figcaption>Such a big JCB</figcaption>
+    </figure>
+
+
+
+   <div class="posWrapper">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.776415928406!2d80.20731311430505!3d13.049898916687454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266c2084f9c3b%3A0x54b9629cc45d76f0!2sForum%20Vijaya%20Mall!5e0!3m2!1sen!2sin!4v1632144946312!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    
+<ul>
+    <li>Buy Vegettables</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+</ul>
+
+
+<ol type="i">
+    <li>Buy Vegettables</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+    <li>Buy Milk</li>
+    <li>Withdraw Cash</li>
+</ol>
+
+
+<dl>
+    <dt>HTML</dt>
+    <dd>To create layout and to structure my page</dd>
+    <dt>CSS</dt>
+    <dd>To beautify my webpage</dd>
+</dl>
+
+  <table> 
+        <tr>
+            <th>Name of the Student</th>
+            <th>English</th>
+            <th>Math</th>
+        </tr>
+        <tr>
+            <td>Lalitha</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>bharath</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Ratchana</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Siddiq</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>praveen</td>
+            <td>100</td>
+            <td>100</td>
+        </tr> 
+    </table> -->
+
+
+
+    <!-- <div class="divOne">
+    </div> -->
+
+    <!-- <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+
+    <div class="divTwo">
+        <p>Hello guys</p>
+    </div>
+    <!-- <div class="wrapper">
+        <div class="left"></div>
+        <div class="right">
+            <div class="topleft">
+                <h1>Ground works                </h1>
+                <p class="innerText">Sample text. Click to select the text box. Click again or double click to start editing the text.
+
+                </p>
+            </div>
+            <div class="topRight">
+                <h1>Ground works                </h1>
+                <p class="innerText">Sample text. Click to select the text box. Click again or double click to start editing the text.
+
+                </p>
+            </div>
+            <div class="bottomleft">
+                <h1>Ground works                </h1>
+                <p class="innerText">Sample text. Click to select the text box. Click again or double click to start editing the text.
+
+                </p>
+            </div>
+            <div class="bottomRight">
+                <h1>Ground works                </h1>
+                <p class="innerText">Sample text. Click to select the text box. Click again or double click to start editing the text.
+
+                </p>
+            </div>
+        </div>
+    </div> -->
+</body>
+<script src="script.js"></script>
+</html>

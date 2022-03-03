@@ -1,0 +1,196 @@
+.divOne{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    display: inline-block;
+  
+}
+.divTwo{
+    height: 400px;
+    width: 1000px;
+    border-right: 10px double red;
+    border-right-color: grey;
+    display: inline-block;
+    /* margin-left: 20px;
+    margin: 10px;
+    margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px; */
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    background-image: url(jcb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-y: -200px;
+    outline: 20px solid red; */
+    box-shadow: 50px 10px green blue;
+    text-shadow: 10px 10px blue;
+}
+
+
+.ouput{
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* 
+table, tr, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: green;
+}
+
+tr:nth-child(even){
+    background-color: red;
+} */
+
+ul{
+    list-style-type: square;
+}
+
+
+li:nth-child(5){
+    color: red;
+    font-size: 30px;
+}
+
+
+p{
+    color: yellow !important; 
+}
+
+
+.flexbox {
+    border: 1px solid red;
+    display: flex;
+    /* width: 600px;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    */
+    justify-content: center; /*flex-start, flex-end, space-around, space-between*/
+}
+
+.flexbox div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.wrapper{
+    width: 100%;
+    height: 700px;
+    background-image: url(jcb.jpg);
+    background-size: cover;
+  
+    background-position-y: -197px;
+    
+}
+
+body{
+    margin: 0;
+}
+.left{
+    width: 49%;
+    height: 600px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid green; */
+    display: inline-block;
+    float: left;
+}
+
+.topleft, .bottomleft{
+    height: 190px;
+    width: 227px;
+    /* border: 1px solid green; */
+    display: inline-block;
+    background-color: white;
+    margin-left: 30px;
+    padding: 35px;
+}
+.topRight, .bottomRight{
+    height: 190px;
+    width: 227px;
+    /* border: 1px solid green; */
+    display: inline-block;
+    background-color: white;
+    margin-left: 30px;
+    padding: 35px;
+}
+.bottomleft{
+    margin-top: 20px;
+}
+.innerText{
+    font-size: 22px;
+    line-height: 29px;
+    font-family: serif;
+}
+
+.right h1{
+    margin-top: 0;
+}
+
+.topLeft, .topRight{
+    margin-top: 30px;
+}
+
+.youtube{
+    position: absolute;
+    left: 253px;
+    top: 230px;
+}
+
+.map{
+    position: relative;
+}
+.posWrapper{
+    position: relative;
+}
+.jcbimg{
+    max-width: 400px;
+    width: 410px;
+}
+/* pseudo elements */
+.firstpara::first-letter{
+    font-size:  80px;
+}
+.firstpara::first-line{
+    color: red;
+}
+
+/* .firstpara::before{
+    content: url("jcb.jpg");
+} */
+
+/* pseudo class */
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: pink;
+}
